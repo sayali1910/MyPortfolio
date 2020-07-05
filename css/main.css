@@ -33,6 +33,7 @@
 }
 
 .AboutMe {
+    margin-top: 100px;
     background: url('../images/office-620822.jpg');
     background-size: cover;
 }
