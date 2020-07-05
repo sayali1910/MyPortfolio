@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="css/main.css" />
 </head>
 
-<body>
+<body onload="myFunction()">
+    <div id="loading"></div>
 
     <nav class="navbar navbar-dark navbar-expand-sm">
         <div class="container">
@@ -254,6 +255,15 @@
             scrollOverflow: true,
 
         })
+    </script>
+
+    <script>
+        setTimeout(function myFunction() {
+            var preloader = document.getElementById('loading');
+
+            preloader.style.display = 'none';
+
+        }, 1000);
     </script>
 
 </body>

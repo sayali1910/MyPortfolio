@@ -14,7 +14,8 @@
 
 </head>
 
-<body>
+<body onload="myFunction()">
+    <div id="loading"></div>
 
     <div id="fullPage">
 
@@ -78,6 +79,14 @@
             scrollOverflow: true,
 
         })
+    </script>
+    <script>
+        setTimeout(function myFunction() {
+            var preloader = document.getElementById('loading');
+
+            preloader.style.display = 'none';
+
+        }, 1000);
     </script>
 </body>
 
