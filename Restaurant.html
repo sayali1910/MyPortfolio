@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.css" integrity="sha512-iesDf6JpbvI3x1ZiXH3uF+0uvuAoZlTpDsHscV/8uasSBQYx4n8nJUU1ms43oCiq9KcVDWl3zz0Ij2wt7fRoFQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" integrity="sha512-f8mUMCRNrJxPBDzPJx3n+Y5TC5xp6SmStstEfgsDXZJTcxBakoB5hvPLhAfJKa9rCvH+n3xpJ2vQByxLk4WP2g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+
+    <div id="fullPage">
+
+        <div class="section Res">
+            <div class="row">
+                <h3 class="col-2" style="writing-mode:vertical-lr; color:gold;">Project</h3>
+                <div class="container col-md-6">
+                    <h1 style="color: gold; font-size: 50px; font-family: fantasy; text-align: start;">Restaurant Website</h1>
+                    <h1 style="color: whitesmoke;font-size: 30px; font-family: fantasy; text-align: start;">Description :</h1>
+                    <p style="background: rgba(0, 0, 0, 0.5); color: whitesmoke; padding: 20px; border-radius: 10px;"> It is simple responsive restaurant website created using ReactJs. The website consists of different sectons like Home , About , Menu , Contact.
+                    </p>
+                    <h3 style="color: crimson;">Github Link:
+                        <a href="https://github.com/sayali1910/confusion.git">https://github.com/sayali1910/confusion.git</a>
+                    </h3>
+                    <a class="HomePage" href="./index.html">Go To Homepage</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section ResInfo">
+            <div class="row">
+                <h3 class="col-2" style="writing-mode:vertical-lr; color:gold;">Project</h3>
+
+                <div class="container col-md-10">
+                    <h1 style="color: gold;">Project Screenshots</h1>
+                    <div class="card-columns">
+                        <div class="card">
+                            <img src="./images/R1.PNG" style="width: 100%; height: 100%;" />
+                        </div>
+                        <div class="card">
+                            <img src="./images/R2.PNG" style="width: 100%; height: 100%;" />
+                        </div>
+                        <div class="card">
+                            <img src="./images/R3.PNG" style="width: 100%; height: 100%;" />
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js " integrity="sha512-212XzBn0s4WIDgCVdotpEppK681Cn9mMTDC70bt0kp3JSU+Mpm2W0/nxu0/pXLICm3guSIRnZFSQ3vSFJ6W+Tg==" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/vendors/scrolloverflow.min.js " integrity="sha512-wdhgrJcWqPutm4UC2SuB+LdAB0FnMkKlka4lps8jaUpXydYNYWwV1gWSEAcyiG1F6MztSxNaNIVaJmQns2QyYQ==" crossorigin=" anonymous "></script>
+    <script>
+        new fullpage('#fullPage', {
+            autoScrolling: true,
+            navigation: true,
+            anchors: ['Home', 'AboutMe', 'Projects', 'Experience', 'Certifications', 'Skills', 'ContactMe'],
+            navigationTooltips: ['Home', 'About', 'Projects', 'Experience', 'Certifications', 'Skills', 'Contact'],
+            scrollingSpeed: 1000,
+            scrollOverflow: true,
+
+        })
+    </script>
+</body>
+
+</html>
