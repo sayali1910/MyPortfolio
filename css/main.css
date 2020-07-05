@@ -36,6 +36,7 @@ nav {
 }
 
 .AboutMe {
+    padding: 50px;
     background: url('../images/office-620822.jpg');
     background-size: cover;
 }
@@ -45,6 +46,7 @@ nav {
 }
 
 .Projects {
+    padding: 50px;
     background: url('../images/white-paper-on-laptop-computer-2903063.jpg');
     background-size: cover;
 }
@@ -80,11 +82,13 @@ nav {
 }
 
 .Experience {
+    padding: 50px;
     background: url('../images/silver-and-black-laptop-computer-1229861.jpg');
     background-size: cover;
 }
 
 .Certifications {
+    padding: 50px;
     background: url('../images/silver-and-black-laptop-computer-1229861.jpg');
     background-size: cover;
     padding-top: 75px;
@@ -95,11 +99,13 @@ nav {
 }
 
 .Skills {
+    padding: 50px;
     background: url('../images/close-up-of-text-on-black-background-256502.jpg');
     background-size: cover;
 }
 
 .skillcard {
+    padding: 0px;
     background: transparent;
     border: none;
 }
